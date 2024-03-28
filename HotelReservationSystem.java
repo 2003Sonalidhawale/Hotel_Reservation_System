@@ -5,11 +5,7 @@ import java.util.*;
 import java.sql.Statement;
 import java.sql.ResultSet;
 
-public class HotelReservationSystem {
-//	private static final String url = "jdbc:mysql://localhost:3306/reservations";
-//	private static final String username = "root";
-//	private static final String password = "sonali30";
-//			
+public class HotelReservationSystem {		
 	public static void main(String[] args) throws ClassNotFoundException, SQLException, InterruptedException{
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
